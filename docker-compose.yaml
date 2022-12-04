@@ -1,0 +1,20 @@
+version: '3'
+services:
+  streamlit:
+    build: 6_docker/streamlit/
+    image: mlp_streamlit
+    container_name: mlp_streamlit
+    depends_on:
+      - api
+    ports:
+      - 8501:8501
+    volumes:
+      - ./:/app/
+  api:
+    build: 6_docker/api/
+    image: mlp_api
+    container_name: mlp_api
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app/

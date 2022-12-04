@@ -1,0 +1,63 @@
+raw_dataset_path: ../1_data/raw_data/5year.arff
+raw_df_path: ../1_data/processed_data/raw_df.pkl
+
+train_set_path:
+  x_train: ../1_data/processed_data/x_train.pkl
+  y_train: ../1_data/processed_data/y_train.pkl
+test_set_path:
+  x_test: ../1_data/processed_data/x_test.pkl
+  y_test: ../1_data/processed_data/y_test.pkl
+
+prep_rus_path:
+  x_rus: ../1_data/processed_data/x_rus.pkl
+  y_rus: ../1_data/processed_data/y_rus.pkl
+prep_sm_path:
+  x_sm: ../1_data/processed_data/x_sm.pkl
+  y_sm: ../1_data/processed_data/y_sm.pkl
+prep_test_path:
+  x_test: ../1_data/processed_data/x_test_prep.pkl
+  y_test: ../1_data/processed_data/y_test.pkl
+
+production_model_path: ../4_models/model_prod.pkl
+training_log_path: ../5_log/training_log.json
+scaler_path: ../4_models/std_scaler_prod.pkl
+
+# columns data type
+float_columns:
+- Attr21
+- Attr13
+- Attr27
+- Attr34
+- Attr24
+- Attr35
+- Attr51
+- Attr6
+- Attr56
+- Attr49
+- Attr40
+- Attr55
+- Attr50
+- Attr58
+- Attr43
+int64_columns:
+- class
+
+# predictors and label
+predictors:
+- Attr21
+- Attr13
+- Attr27
+- Attr34
+- Attr24
+- Attr35
+- Attr51
+- Attr6
+- Attr56
+- Attr49
+- Attr40
+- Attr55
+- Attr50
+- Attr58
+- Attr43
+label:
+- class
