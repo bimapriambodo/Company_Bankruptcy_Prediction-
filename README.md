@@ -23,7 +23,7 @@ The MLP project focuses on end-to-end machine learning workflows, beginning with
 `git clone  https://github.com/bimapriambodo/Company_Bankruptcy_Prediction-.git`
 
 > 4. Navigate to the cloned folder's directory. Open a CMD terminal and compile the docker file as follows:
-`docker compose up`
+`docker-compose up`
 Wait until everything is completed. If your internet connection is fast, the process will be as well.
 
 >5. To test Api, open a browser and enter the following address :
