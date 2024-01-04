@@ -94,7 +94,7 @@ Many scenarios have not yet been tried and would be quite interesting iterative 
 
 We hope that this trial will provide an overview of highly influential iterative processes in data science. Matt, stay hungry and foolish!
 
-##  Rerence
+##  Reference
 Chang, Hanxu. 2019. The Application of Machine Learning Models in Company Bankruptcy Prediction. ICSEB: International Conference on Software and e-Business. Tokyo: Japan
 
 Zieba,Maciej. 2016. Ensemble Boosted Trees with Synthetic Features Generation in Application to Bankruptcy Prediction. Expert Systems with Applications: An International Journal
